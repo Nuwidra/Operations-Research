@@ -1,0 +1,11 @@
+# This is a TOML document.
+[ag]
+population_size = 10000
+num_parents = 100
+selection_method = "elite" #  choose "roulette", "elite", "ranking"
+elite_size = 2
+mutation_rate = 0.5
+crossover_rate = 90
+crossover_method =   "one-point" #  choose "one-point", "two-point", "uniform"
+[passcode]
+correct_passcode = "234AHLp91n"
